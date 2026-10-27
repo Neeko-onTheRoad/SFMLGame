@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c4fa8a9f-24b7-402f-8f42-09aa29f1b4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\Header\Core">
+      <UniqueIdentifier>{0abe3c4d-4c40-4b86-b04e-3bd57f66fb63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header\Core\SceneSystem">
+      <UniqueIdentifier>{e153a401-0f4c-4a02-89d7-ab5dbe4bcf91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header\Core\WindowManagement">
+      <UniqueIdentifier>{9c55e546-8e5c-4315-9936-be1b82acc37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header\Core\SetingSystem">
+      <UniqueIdentifier>{0399c95d-d28a-47d2-9470-19f35edd98d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header\Core\SetingSystem\PropertyBlocks">
+      <UniqueIdentifier>{20404e8d-3a0e-4945-aa70-fa90aec882d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Source\Core">
+      <UniqueIdentifier>{40fa2873-98fe-448b-b61b-0fcae55dde96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source\Core\WindowManagement">
+      <UniqueIdentifier>{f1d4b6c9-cfde-4abe-a3a9-23ee6cbb99a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source\Core\SceneSystem">
+      <UniqueIdentifier>{2896ff96-2c04-4f62-ac7c-22d779148102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source\Core\SettingSystem">
+      <UniqueIdentifier>{ed562d9b-d22a-4220-8406-ee3d5dfa5353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source\Core\SettingSystem\PropertyBlocks">
+      <UniqueIdentifier>{43165914-14cf-4789-bacf-e104205bb1a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{6e96d5cd-7bb5-4aea-b639-ace7f5420d49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Header\Core\StringTableSystem">
+      <UniqueIdentifier>{69ed9de1-a404-4056-907f-228341380844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Source\Core\StringTableSystem">
+      <UniqueIdentifier>{d297f4d9-b016-4fe1-8f62-576e2bba9eac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".Program.Cxx">
+      <Filter>src\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowManager.Cxx">
+      <Filter>src\Source\Core\WindowManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.Cxx">
+      <Filter>src\Source\Core\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingPropertyIntegerBlock.Cxx">
+      <Filter>src\Source\Core\SettingSystem\PropertyBlocks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WindowManager.Hxx">
+      <Filter>src\Header\Core\WindowManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.Hxx">
+      <Filter>src\Header\Core\SceneSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingPropertyBlock.Hxx">
+      <Filter>src\Header\Core\SetingSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingPropertyIntegerBlock.Hxx">
+      <Filter>src\Header\Core\SetingSystem\PropertyBlocks</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTable.Hxx">
+      <Filter>src\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
